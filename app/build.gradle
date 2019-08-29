@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'releaseKey'
             keyPassword 'release1123@countri_pedia'
-            storeFile file('D:/AndroidStudioProjects/Countripedia/keystore.jks')
+            storeFile file('../keystore.jks')
             storePassword 'countri747pedia889'
         }
     }

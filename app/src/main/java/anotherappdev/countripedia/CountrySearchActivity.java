@@ -184,7 +184,7 @@ public class CountrySearchActivity extends AppCompatActivity {
         menuItem.setChecked(true);
         String title = menuItem.getTitle().toString();
         if(title.equals("Home")) {
-            setTitle("Countripedia");
+            setTitle("WanderAR");
         } else {
             setTitle(title);
         }
@@ -238,7 +238,7 @@ public class CountrySearchActivity extends AppCompatActivity {
                 if (tag != null) {
                     manager.beginTransaction().replace(R.id.list_fragment_container, fragment).commit();
                 }
-                setTitle("Countripedia");
+                setTitle("WanderAR");
             } else {
                 recreate();
             }

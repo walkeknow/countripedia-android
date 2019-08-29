@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/countrypedia_title"
-        android:title="COUNTRIPEDIA"
+        android:title="WanderAR"
         android:checkable="false" />
 
     <group android:checkableBehavior="single">
